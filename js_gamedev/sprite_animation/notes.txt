@@ -1,0 +1,40 @@
+    let frameX = 0;
+let frameY = 0;
+    
+    // ctx.fillRect(x, y, 100, 100);
+    // ctx.drawImage(image, sx, sy, sw, sh, dx, dy, dw, dh);
+    // image,
+    // 4 values to determine part of image to cut out , 
+    //4 values to determine where to place cutout image
+
+
+
+
+
+
+
+
+let count = 0;
+let x = 0;
+let y = 0;
+let increasing = true;
+let increasingVert = false;
+
+    /*     if (y == CANVAS_HEIGHT) {
+            y -= 6;
+        }
+        if (x < CANVAS_WIDTH && increasing) {
+            x += 5;
+    
+        }
+        if (x == CANVAS_WIDTH) {
+            increasing = !increasing;
+            count++;
+        }
+        if (x > 0 && !increasing) {
+            x -= 5;
+            y += 5;
+        }
+        if (x == 0) {
+            increasing = !increasing;
+        } */
