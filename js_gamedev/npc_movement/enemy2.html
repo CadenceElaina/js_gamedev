@@ -12,9 +12,9 @@
     <body>
 
         <canvas id="canvas1"></canvas>
-        <a class='btn-link' href="enemy4.html" title="enemy 4"><button class="btn1" id="btn"><img
+        <a class='btn-link' href="index.html" title="enemy 1"><button class="btn1" id="btn"><img
                     src="left-arrow.png"></button></a>
-        <a class='btn-link' href="enemy2.html" title="enemy 2"><button class="btn" id="btn"><img
+        <a class='btn-link' href="enemy3.html" title="enemy 3"><button class="btn" id="btn"><img
                     src="right-arrow.png"></button></a>
         <div class="header">
             <h1>NPC Movement</h1>
@@ -22,14 +22,20 @@
         </div>
         <div class="controls">
             <h1>Change Enemy <span id="imageNumber1"></span>'s Behavior</h1>
-            <div class="range-wrap">
-                <input type="range" min="0" max="20" value="5" class="range" id="slider">
-                <output class="bubble"></output>
-                <p id="inputValue"></p>
+            <div>
+                <label>Change the NPC speed!</label>
+                <br>
+                <input type="range" min="0" max="100" value="5" class="slider" id="slider">
+                <p>NPC Speed: <span id="showNpcSpeed"></span></p>
+
+                <label>Change the curve variance!</label>
+                <br>
+                <input type="range" min="0" max="100" value="5" class="slider" id="slider1">
+                <p>Curve Variance Value: <span id="showVariance"></span></p>
             </div>
         </div>
 
-        <script src="script.js"></script>
+        <script src="script2.js"></script>
     </body>
 
 </html>
